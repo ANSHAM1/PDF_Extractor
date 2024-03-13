@@ -1,0 +1,180 @@
+.Color{
+  background-color: rgba(0, 0, 0, 0.671);
+}
+.navitems{
+  color: white;
+  border: none;
+}
+.navitems:hover{
+  color: white;
+}
+.Card1{
+  position: relative;
+  display: flex;
+  top: 40vh;
+
+}
+.cardwidth{
+  margin-left: 10vh;
+}
+.Black{
+  /* background-color: black; */
+  background-image:linear-gradient(bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0));
+  backdrop-filter: blur(10px); 
+  box-shadow: 10px 10px 10px rgba(30, 30, 30, 0.623);
+  height: 100vh;
+}
+.center{
+  display: grid;
+  justify-content: center;
+  padding-top: 100px;
+
+}
+.card1st{
+  margin-left: 70vh;
+}
+.Tech{
+  background: rgb(228, 216, 221);
+  background: linear-gradient(90deg, rgb(224, 218, 221) 0%, rgb(226, 226, 226) 97%);
+}
+.Tech>h1{
+  margin-bottom: 10vh
+}
+@keyframes Animate {
+  from{
+    top: -100vh;
+  }
+  to{
+    top: 0vh;
+  }
+}
+.Animate1{
+  animation-name: Animate;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+}
+.FormC{
+  margin-top: -17px;
+  padding-top: 100px;
+  background: rgb(211, 194, 201);
+  background: linear-gradient(90deg, rgb(224, 218, 221) 0%, rgb(226, 226, 226) 97%);
+}
+.FormC>h1{
+  display: grid;
+  justify-content: center;
+}
+.control{
+  display: grid;
+  justify-content: center;
+}
+.control2{
+  width: 100px;
+}
+.button1{
+  margin-top: 10px;
+  margin-left: 50vh;
+}
+.navbar1{
+  position: sticky;
+  top: 0%;
+  width: 100%;
+  z-index: 100;
+}
+.opening{
+  display:flex;
+  color: white;
+  justify-content: center;
+  font-size: 100px;
+  margin-top: 50vh;
+  margin-bottom: 50vh;
+}
+.feature{
+  color: white;
+  display: grid;
+  justify-content: center;
+  background-color: black;
+  font-size: 20px;
+  margin-top: 200px;
+  height: 1700px;
+}
+.forms{
+  padding-top: 100px;
+}
+.forms>input:first{
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+.output{
+  overflow: auto;
+  display: flexbox;
+  width: 800px;
+  height: 400px;
+  margin-top: 20px;
+}
+.output>div{
+  display: flexbox;
+  overflow: auto;
+  width: 800px;
+  height: 200px;
+}
+.output>div>img{
+  height: 100px;
+  width:100px;
+}
+.featureform{
+  display: relative;
+}
+.button{
+  border-radius: 5px;
+  background-color: rgb(0, 247, 255);
+  color: black;
+}
+.feature2{
+  display: grid;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 200px;
+}
+.output2{
+  margin-top: 20px;
+  border:2px solid black;
+}
+.decorator{
+  display: grid;
+  justify-content: center;
+  font-style:italic;
+}
+.card1{
+  display: flex;
+
+  margin-left: 100px;
+}
+.cards{
+  display: flex;
+}
+.para{
+  margin-bottom: 100px;
+}
+.loginform{
+  display: grid;
+  justify-content: center;
+  background-image:linear-gradient(bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0));
+  backdrop-filter: blur(50px); 
+  box-shadow: 10px 10px 10px rgba(30, 30, 30, 0.623);
+  width: 500px;
+  height: 500px;
+}
+.centerit{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.formcenter{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
