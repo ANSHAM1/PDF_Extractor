@@ -32,7 +32,7 @@ This repository contains the code for a full stack website built with React for 
     npm install
     ```
 
-### Python Virtual Environment (Optional)
+### Python Virtual Environment
 
 1. Create a Python virtual environment:
 
