@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url(C:\Users\Ansham\Desktop\finalwork\src\Assets\img2.jpg);
+  background-image: url('.\Assets\img2.jpg');
   background-repeat: no-repeat;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
