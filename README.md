@@ -63,9 +63,7 @@ This repository contains the code for a full stack website built with React for 
 4. Install Python dependencies:
 
     ```
-    pip install fitz
-    pip install PyMuPDF   
-    pip install pillow
+    pip install fitz PyMuPDF pillow
     ```
     
 # Additional Setup
@@ -87,11 +85,11 @@ This repository contains the code for a full stack website built with React for 
 
     ```
     PORT=8000
-    MONGODB_URI=
+    MONGODB_URI=<your mongodb url>
 
-    CLOUDINARY_CLOUD_NAME=
-    CLOUDINARY_API_KEY=
-    CLOUDINARY_API_SECRET=
+    CLOUDINARY_CLOUD_NAME=<your cloudinary cloud name>
+    CLOUDINARY_API_KEY=<your api key>
+    CLOUDINARY_API_SECRET=<your api secret>
     ```
 
 
