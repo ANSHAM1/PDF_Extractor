@@ -34,13 +34,19 @@ This repository contains the code for a full stack website built with React for 
 
 ### Python Virtual Environment
 
-1. Create a Python virtual environment:
+1. Navigate to the `backend` directory:
+
+    ```
+     cd backend
+    ```
+
+2. Create a Python virtual environment:
 
     ```
     python3 -m venv venv
     ```
 
-2. Activate the virtual environment:
+3. Activate the virtual environment:
 
     On macOS/Linux:
 
@@ -54,7 +60,7 @@ This repository contains the code for a full stack website built with React for 
     .\venv\Scripts\activate
     ```
 
-3. Install Python dependencies:
+4. Install Python dependencies:
 
     ```
     pip install fitz
