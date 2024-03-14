@@ -67,6 +67,33 @@ This repository contains the code for a full stack website built with React for 
     pip install PyMuPDF   
     pip install pillow
     ```
+    
+# Additional Setup
+
+1. Navigate to the `backend` directory:
+
+    ```
+    cd backend
+    ```
+
+2. Create a `.env` file:
+
+    - Right-click anywhere.
+    - Click on "New."
+    - Select "File."
+    - Name it as `.env`.
+
+3. Add the following content in the `.env` file:
+
+    ```
+    PORT=8000
+    MONGODB_URI=
+
+    CLOUDINARY_CLOUD_NAME=
+    CLOUDINARY_API_KEY=
+    CLOUDINARY_API_SECRET=
+    ```
+
 
 ## Usage
 
