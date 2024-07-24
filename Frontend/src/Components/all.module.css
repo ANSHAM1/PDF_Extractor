@@ -1,0 +1,70 @@
+.Fileupload {
+  position: fixed;
+  top: 20px;
+  left: 530px;
+  height: 200px;
+  width: 600px;
+  color: black;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  height: 50px;
+  width: 150px;
+  color: black;
+  border-radius: 30px;
+  background-color: rgb(0, 229, 255);
+  border: 2px solid rgba(4, 247, 255, 0.731);
+}
+
+.btn:hover {
+  border: 2px solid black;
+}
+
+.Content {
+  position: fixed;
+  top: 250px;
+  left: 100px;
+  height: 500px;
+  width: 700px;
+  border-radius: 30px;
+  background-color: rgba(0, 229, 255, 0.454);
+  border: 2px solid rgba(4, 247, 255, 0.731);
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Images {
+  position: fixed;
+  top: 250px;
+  right: 100px;
+  height: 500px;
+  width: 700px;
+  border-radius: 30px;
+  background-color: rgba(0, 229, 255, 0.393);
+  border: 2px solid rgba(4, 247, 255, 0.731);
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Images::-webkit-scrollbar {
+  display: none;
+}
+
+.Content::-webkit-scrollbar {
+  display: none;
+}
+
+.image{
+  height: "300px";
+  width: "400px";
+  margin: 20px;
+}
