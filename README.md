@@ -84,14 +84,8 @@ This repository contains the code for a full stack website built with React for 
 3. Add the following content in the `.env` file:
 
     ```
-    PORT=8000
-    MONGODB_URI=<your mongodb url>
-
-    CLOUDINARY_CLOUD_NAME=<your cloudinary cloud name>
-    CLOUDINARY_API_KEY=<your api key>
-    CLOUDINARY_API_SECRET=<your api secret>
+    PORT=4000
     ```
-
 
 ## Usage
 
@@ -99,23 +93,18 @@ This repository contains the code for a full stack website built with React for 
 
     ```
     cd backend
-    npm start
+    nodemon app.js
     ```
 
 2. Start the frontend development server:
 
     ```
     cd frontend
-    npm start
+    npm run dev
     ```
 
-3. Access the website in your browser:
-
-    ```
-    http://localhost:3000
-    ```
 
 ## Folder Structure
 
 - `frontend`: Contains the React frontend code.
-- `backend`: Contains the Node.js backend code.
+- `backend`: Contains the Express.js backend code.
